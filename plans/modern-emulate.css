@@ -1,0 +1,78 @@
+@import url('http://www.grinnellplans.com/styles/starter_defaults.css');
+
+li {
+	list-style: none;
+}
+
+label {
+	font-weight: bold;
+}
+
+#nav {
+	float: left;
+	display: inline;
+	width: 12%;
+	margin-right: 2%;
+}
+
+#searchname {
+	width: 90%;
+}
+
+#links h2 {
+	display: none;
+}
+
+#links * li {
+	text-transform: lowercase;
+}
+
+#autoread h2 {
+	font-size: 100%;
+}
+#finger form div button {
+	display: block;
+}
+
+ul.linkslist {
+	padding: 10px;
+}
+
+#autoread ul {
+	padding: 10px;
+}
+
+#autoread h2 {
+	margin-bottom: 0px;
+}
+
+#autoread ul {
+	margin-top: 0px;
+}
+
+#finger .form_prompt {
+	float: none;
+}
+
+.formitemset, .form_prompt {
+	clear: none;
+}
+
+#footer {
+	float: left;
+	display: inline;
+}
+
+#footer #poweredby {
+	border-top: 4px double black;
+}
+
+#footer #legal {
+	margin-top: 4px;
+}
+
+#main {
+	float: left;
+	display: inline;
+	width: 86%;
+}
