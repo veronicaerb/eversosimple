@@ -1,0 +1,443 @@
+/* ---------- Browser Normalization ---------- */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset, img {
+	border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol, ul {
+	list-style: none outside none;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+caption, th {
+	text-align: left;
+}
+
+q:before, q:after {
+	content: '';
+}
+
+abbr, acronym {
+	border: 0;
+}
+
+body {
+	font-size: small;								/* IE renders "small" at 12px = 1em */ 
+}
+
+html > body {
+	font-size: normal;								/* MOSe render "normal" at 12px = 1em */
+}
+
+em, i {
+	font-style: italic;
+}
+
+strong, bold {
+	font-weight: bold;
+}
+
+/* ----------- "Starter Default" from Plans Admins" ---------- */
+
+@import url('http://www.grinnellplans.com/styles/starter_defaults.css');
+
+/* Styling for the fill meter when editing */
+#edit_fill_meter .fill_bar {
+	background: url("http://www.grinnellplans.com/images/old/unfilled.gif");
+	float: left;
+	width: 100px;
+	height: 16px;
+}
+#edit_fill_meter .full_amount {
+	background: url("http://www.grinnellplans.com/images/old/filled.gif");
+	height: 1em;
+	/* Default to no width if javascript is turned off */
+	width: 0%;
+}
+#edit_fill_meter .fill_percent {
+	float: left;
+}
+#edit_fill_meter.danger .full_amount {
+	background: url("http://www.grinnellplans.com/images/old/danger.gif");
+}
+
+
+/* ---------- Headers ---------- */
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;  /* 24px / 12px */
+}
+
+h2 {
+    font-size: 1.75em;  /* 21px / 12px */
+}
+
+h3 {
+    font-size: 1.5em;  /* 18px / 12px */
+}
+
+h4 {
+    font-size: 1.34em;  /* 16px / 12px */
+}
+
+h5 {
+    font-size: 1.17em; /* 14px / 12px */
+}
+
+h6 {
+	font-size: 1em; /* 12px / 12px */
+}
+
+
+/* ---------- Body ---------- */
+
+body.main {
+}
+
+body#planspage_edit {}							/* found at edit.php */
+body#planspage_home {}							/* found at home.php */
+
+
+body.plan {
+}
+
+body#planspage_readplan {}						/* found at read.php */
+
+
+body.utilities {									
+}
+
+body#planspage_search { }						/* found at search.php - search and quicklove */
+body#planspage_plangenesis { }					/* found at lastcreated.php */
+body#planspage_planwatch { }						/* found at planwatch.php */
+body#planspage_poll { }							/* found at poll.php */
+body#planspage_listusers { }						/* found at listusers.php */
+
+
+body.preferences {
+}
+
+body#planspage_prefs { }							/* found at customize.php */
+body#planspage_autoreadedit { }					/* found at autoread.php */
+body#planspage_password { } 						/* found at changepassword.php */
+body#planspage_planname { } 						/* found at changename.php */
+body#planspage_webview {  } 						/* found at webview.php */
+body#planspage_interfaces { }					/* found at interfaces.php */
+body#planspage_stylesheets { }					/* found at styles.php */
+body#planspage_textbox { }						/* found at textbox.php */
+body#planspage_optional_links {}					/* found at links.php */
+
+
+body.notes {
+}
+
+body#planspage_board_show { }					/* found at board_show.php */
+body#planspage_board_messages { }				/* found at baord_messages.php */
+
+
+body.extras {
+}
+
+body#planspage_secrets {}						/* found at anonymous.php */
+
+
+
+/* ---------- General ---------- */
+
+.infomessage {
+	margin: 1em 0;
+	border: 1px solid #2D76BF;
+	background-color: #EEF5FB;
+}
+
+.infomessage .title {
+	display: inline-block;
+	margin: 0.5em 1em;
+	font-weight: bold;
+}
+
+pre, tt {
+	font-weight: 1em;
+}
+
+#planspage_webview .form_prompt,
+#planspage_planname .form_prompt,
+#planspage_textbox .form_prompt,
+#planspage_search .form_prompt,
+#planspage_poll .form_prompt {
+	display: inline;
+	margin-right: 1em;
+}
+
+
+/* ---------- Anchor Links ---------- */
+
+a:link {
+	color: #2D76BF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #2D76BF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3893EE;
+	text-decoration: underline;
+}
+
+a.planlove {
+}
+
+a.onplan {
+}
+
+a.onplan:visited {
+	color: #8FBEEE;
+}
+
+a.onplan:hover {
+	color: #3893EE;
+}
+
+
+/* ---------- Wrapper ---------- */
+
+#wrapper {
+	position: relative;
+	width: 850px;
+	left: 50%;
+	top: 20px;
+	margin-left: -425px;
+	
+	font-family: helvetica, arial, sans-serif;
+	line-height: 1.5em;
+}
+
+#nav, #main, #footer {
+}
+
+
+/* ---------- Nav ---------- */
+
+#nav {
+	float: left;
+	display: inline;
+	margin-right: 50px;
+	width: 200px;
+/*	position: absolute;
+	left: 0;
+	top: 0; */
+}
+
+#nav h2 {
+	display: none;
+}
+
+#nav #logo, #nav #finger, #nav #links, #nav #autoread {
+	margin-bottom: 30px;
+}
+
+#nav #logo {
+}
+	
+#nav #logo  a{
+	width: 200px;
+	height: 75px;
+	display: block;
+	background-image: url(images/plans_logo_official_200px.png);
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+}	
+
+#nav #finger {
+}
+
+#nav #links {
+}
+
+#nav #autoread  {
+}
+
+#nav #autoread ul ul {
+	margin-left: 20px;
+}
+
+#nav #autoread li.autoreadlevel {
+	margin-bottom: .5em;
+}
+
+#nav #autoread li.autoreadlevel.notcurrent li{
+	display: none;
+}
+
+
+/* ---------- Main ---------- */
+
+#main {
+	float: left;
+	display: inline;
+	width: 600px;
+	margin-bottom: 50px;
+}
+
+.preferences #main, .utilities #main, #planspage_edit #main, #planspage_home #main {
+	margin-top: 105px;
+}
+
+body.utilities #main h3 {
+	margin-bottom: .5em;
+}
+
+body.utilities #main ul {
+	margin: 1em 0;
+}
+
+body.utilities #main li {
+	margin-bottom: .5em;
+}
+
+body.preferences h1, body.preferences h2 {
+	margin: 0 0 .5em 0;
+	color: #1B242D;
+}
+
+body.preferences h2 {
+	margin-top: 40px;
+}
+	
+#main #header {
+	margin-bottom: 30px;
+}
+
+#main #header ul {
+	list-style-type: none;
+}
+
+#main #header .title {
+	color: #aaaaaa;
+}
+
+#main #header .username .value {
+	font-weight: bold;
+}
+
+#main span.value span.short {
+	display: none;
+}
+
+#main .plan_text {
+	margin-bottom: 20px;
+}
+
+#main #autoreadadd {
+}
+
+#main #autoreadadd #readadd_levels, #main #autoreadadd #readadd_levels .form_prompt, #main #autoreadadd .submitinput {
+	display: inline;
+	margin-right: 0.5em;
+}
+
+
+/* ---------- Footer ---------- */
+
+#footer {
+	float: left;
+	display: inline;
+	clear: left;
+	width: 850px;
+	border-top: 1px solid #dddddd;
+}
+
+#footer #justupdated {
+	margin: 1.5em 0 2em;
+}
+
+#footer #poweredby {
+	float: left;
+	width: 375px;
+	margin: 0 1em 4em 0;
+}
+
+#footer #poweredby img {
+	float: left;
+	margin-right: 20px;
+}
+
+#footer #legal {
+	font-size: 0.8em;
+	line-height: 1.2em;
+	color: #aaaaaa;
+}
+
+
+/* --------- Quick Love --------- */
+
+body#planspage_search {
+}
+
+#planspage_search #searchform {
+	margin-bottom: 2.6em;
+}
+
+#planspage_search #search_results li {
+	border: 1px solid #dddddd;
+	margin-bottom: 1.5em;
+}
+
+#planspage_search .result_user_group {
+	margin: 1em 1em 3em;
+}
+
+#planspage_search  .result_user_group a.planlove {
+}
+
+#planspage_search  .result_user_group span {
+	float: right;
+	font-size: 1.25em;
+	color: #b8b8b8;
+}
+
+#planspage_search  ul.result_sublist {
+}
+
+#planspage_search  #search_results ul.result_sublist li {
+	border: 0px solid transparent;
+	border-bottom: 1px dashed #eeeeee;
+}
+
+#planspage_search  #search_results ul.result_sublist li.last {
+	border-bottom: 0px solid transparent;
+}
+
+#planspage_search  #search_results ul.result_sublist li  span {
+	float: none;
+	display: block;
+	font-size: 1em;
+	margin-bottom: 1.5em;
+	color: #000000;
+}
+
