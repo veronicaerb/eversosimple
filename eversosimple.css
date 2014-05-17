@@ -458,3 +458,24 @@ body#planspage_search {
 	color: #000000;
 }
 
+
+
+/* --------- Media Queries --------- */
+
+@media screen and (max-width: 400px) {
+  #nav,
+  #main {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 820px) {  /* Need to switch to mobile-first code to make these ideas work */
+  #nav #logo a {
+    background-image: none;
+    text-indent: 0;
+    height: 10px;
+  }
+  #nav #logo a:before 
+  {
+    content: "Plans ";
+  }
+}
