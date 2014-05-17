@@ -228,10 +228,10 @@ a.onplan:hover {
 
 #wrapper {
 	position: relative;
-	width: 850px;
-	left: 50%;
-	top: 20px;
-	margin-left: -425px;
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	overflow: hidden;
 	
 	font-family: helvetica, arial, sans-serif;
 	line-height: 1.5em;
@@ -245,12 +245,9 @@ a.onplan:hover {
 
 #nav {
 	float: left;
-	display: inline;
-	margin-right: 50px;
-	width: 200px;
-/*	position: absolute;
-	left: 0;
-	top: 0; */
+	display: block;
+  width: 20%;
+	margin-right: 3%;
 }
 
 #nav h2 {
@@ -265,10 +262,11 @@ a.onplan:hover {
 }
 	
 #nav #logo  a{
-	width: 200px;
+	width: 100%;
 	height: 75px;
 	display: block;
 	background-image: url(images/plans_logo_official_200px.png);
+	background-image-scale: 100%;
 	background-repeat: no-repeat;
 	text-indent: -9999px;
 }	
@@ -299,8 +297,8 @@ a.onplan:hover {
 
 #main {
 	float: left;
-	display: inline;
-	width: 600px;
+	display: block;
+	width: 77%;
 	margin-bottom: 50px;
 }
 
@@ -366,25 +364,26 @@ body.preferences h2 {
 
 #footer {
 	float: left;
-	display: inline;
+	display: block;
 	clear: left;
-	width: 850px;
 	border-top: 1px solid #dddddd;
 }
 
 #footer #justupdated {
-	margin: 1.5em 0 2em;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #footer #poweredby {
 	float: left;
-	width: 375px;
-	margin: 0 1em 4em 0;
+	font-size: .9em;
+	width: 45%;
+	margin-right: 2%;
 }
 
 #footer #poweredby img {
 	float: left;
-	margin-right: 20px;
+	margin-right: 10px;
 }
 
 #footer #legal {
