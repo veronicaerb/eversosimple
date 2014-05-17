@@ -223,6 +223,24 @@ a.onplan:hover {
 	color: #3893EE;
 }
 
+div.autoreadname {
+  
+}
+
+a.autoreadlink {
+}
+
+a.markasread {
+  margin-left: 1.2em;
+  text-decoration: none;
+}
+a.markasread:hover:after {
+  content: "Mark as Read";
+  font-size: .8em;
+  color: #ccc;
+  margin-right: 2px;
+  text-decoration: none;
+}
 
 /* ---------- Wrapper ---------- */
 
