@@ -318,6 +318,7 @@ a.markasread:hover:after {
 	float: left;
 	display: block;
 	width: 77%;
+	max-width: 480px;
 	margin-bottom: 50px;
 }
 
