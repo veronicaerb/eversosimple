@@ -291,6 +291,14 @@ a.markasread:hover:after {
 }	
 
 #nav #finger {
+  position: absolute;
+  top: 20px;
+  left: 25%;
+}
+
+#nav #finger .form_prompt.textinput,
+#nav #finger .submitinput {
+  display: inline;
 }
 
 #nav #links {
@@ -320,6 +328,7 @@ a.markasread:hover:after {
 	width: 77%;
 	max-width: 480px;
 	margin-bottom: 50px;
+	margin-top: 70px;
 }
 
 .preferences #main, .utilities #main, #planspage_edit #main, #planspage_home #main {
