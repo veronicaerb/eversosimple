@@ -472,6 +472,15 @@ body#planspage_search {
   #main {
     width: 100%;
   }
+  #main,
+  .utilities #main {
+    margin-top: 0;
+  }
+  #nav #links,
+  #nav #autoread {
+    float: left;
+    width: 50%;
+  }
 }
 @media screen and (min-width: 400px) {
   #nav #finger {
