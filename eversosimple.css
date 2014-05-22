@@ -290,12 +290,6 @@ a.markasread:hover:after {
 	text-indent: -9999px;
 }	
 
-#nav #finger {
-  position: absolute;
-  top: 20px;
-  left: 25%;
-}
-
 #nav #finger .form_prompt.textinput,
 #nav #finger .submitinput {
   display: inline;
@@ -477,6 +471,13 @@ body#planspage_search {
   #nav,
   #main {
     width: 100%;
+  }
+}
+@media screen and (min-width: 400px) {
+  #nav #finger {
+    position: absolute;
+    top: 20px;
+    left: 25%;
   }
 }
 @media screen and (max-width: 820px) {  /* Need to switch to mobile-first code to make these ideas work */
