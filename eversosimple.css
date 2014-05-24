@@ -474,6 +474,11 @@ body#planspage_search {
 
 /* --------- Secrets --------- */
 
+#post_secret_toggle:after {
+    content: ">";
+    margin-left: .5em;
+}
+
 #secrets {
   
 }
