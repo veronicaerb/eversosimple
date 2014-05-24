@@ -278,7 +278,7 @@ a.markasread:hover:after {
 #nav #autoread  {
 }
 #nav #autoread ul ul {
-	margin-left: 20px;
+	margin-left: .7em;
 }
 #nav #autoread li.autoreadlevel {
 	margin-bottom: .5em;
