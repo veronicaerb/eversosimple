@@ -85,27 +85,21 @@ strong, bold {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
-
 h1 {
     font-size: 2em;  /* 24px / 12px */
 }
-
 h2 {
     font-size: 1.75em;  /* 21px / 12px */
 }
-
 h3 {
     font-size: 1.5em;  /* 18px / 12px */
 }
-
 h4 {
     font-size: 1.34em;  /* 16px / 12px */
 }
-
 h5 {
     font-size: 1.17em; /* 14px / 12px */
 }
-
 h6 {
 	font-size: 1em; /* 12px / 12px */
 }
@@ -159,7 +153,6 @@ body#planspage_board_messages { }				/* found at baord_messages.php */
 
 body.extras {
 }
-
 body#planspage_secrets {}						/* found at anonymous.php */
 
 
@@ -171,13 +164,11 @@ body#planspage_secrets {}						/* found at anonymous.php */
 	border: 1px solid #2D76BF;
 	background-color: #EEF5FB;
 }
-
 .infomessage .title {
 	display: block;
 	margin: 0.5em 1em;
 	font-weight: bold;
 }
-
 .infomessage .body {
 	display: block;
 	margin: 0.5em 1em;
@@ -204,12 +195,10 @@ a:link {
 	color: #2D76BF;
 	text-decoration: none;
 }
-
 a:visited {
 	color: #2D76BF;
 	text-decoration: none;
 }
-
 a:hover {
 	color: #3893EE;
 	text-decoration: underline;
@@ -220,11 +209,9 @@ a.planlove {
 
 a.onplan {
 }
-
 a.onplan:visited {
 	color: #8FBEEE;
 }
-
 a.onplan:hover {
 	color: #3893EE;
 }
@@ -274,18 +261,14 @@ a.markasread:hover:after {
   width: 20%;
 	margin-right: 3%;
 }
-
 #nav h2 {
 	display: none;
 }
-
 #nav #logo, #nav #finger, #nav #links, #nav #autoread {
 	margin-bottom: 30px;
 }
-
 #nav #logo {
 }
-	
 #nav #logo  a{
 	width: 100%;
 	height: 75px;
@@ -307,15 +290,12 @@ a.markasread:hover:after {
 
 #nav #autoread  {
 }
-
 #nav #autoread ul ul {
 	margin-left: 20px;
 }
-
 #nav #autoread li.autoreadlevel {
 	margin-bottom: .5em;
 }
-
 #nav #autoread li.autoreadlevel.notcurrent li{
 	display: none;
 }
@@ -339,11 +319,9 @@ a.markasread:hover:after {
 body.utilities #main h3 {
 	margin-bottom: .5em;
 }
-
 body.utilities #main ul {
 	margin: 1em 0;
 }
-
 body.utilities #main li {
 	margin-bottom: .5em;
 }
@@ -352,7 +330,6 @@ body.preferences h1, body.preferences h2 {
 	margin: 0 0 .5em 0;
 	color: #1B242D;
 }
-
 body.preferences h2 {
 	margin-top: 40px;
 }
@@ -360,30 +337,23 @@ body.preferences h2 {
 #main #header {
 	margin-bottom: 30px;
 }
-
 #main #header ul {
 	list-style-type: none;
 }
-
 #main #header .title {
 	color: #aaaaaa;
 }
-
 #main #header .username .value {
 	font-weight: bold;
 }
-
 #main span.value span.short {
 	display: none;
 }
-
 #main .plan_text {
 	margin-bottom: 20px;
 }
-
 #main #autoreadadd {
 }
-
 #main #autoreadadd #readadd_levels, #main #autoreadadd #readadd_levels .form_prompt, #main #autoreadadd .submitinput {
 	display: inline;
 	margin-right: 0.5em;
@@ -398,12 +368,10 @@ body.preferences h2 {
 	clear: left;
 	border-top: 1px solid #dddddd;
 }
-
 #footer #justupdated {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 #footer #poweredby {
 	float: left;
 	font-size: .9em;
@@ -411,12 +379,10 @@ body.preferences h2 {
 	width: 45%;
 	margin-right: 2%;
 }
-
 #footer #poweredby img {
 	float: left;
 	margin: 0 10px 5px 0;
 }
-
 #footer #legal {
 	font-size: 0.8em;
 	line-height: 1.2em;
@@ -428,41 +394,32 @@ body.preferences h2 {
 
 body#planspage_search {
 }
-
 #planspage_search #searchform {
 	margin-bottom: 2.6em;
 }
-
 #planspage_search #search_results li {
 	border: 1px solid #dddddd;
 	margin-bottom: 1.5em;
 }
-
 #planspage_search .result_user_group {
 	margin: 1em 1em 3em;
 }
-
 #planspage_search  .result_user_group a.planlove {
 }
-
 #planspage_search  .result_user_group span {
 	float: right;
 	font-size: 1.25em;
 	color: #b8b8b8;
 }
-
 #planspage_search  ul.result_sublist {
 }
-
 #planspage_search  #search_results ul.result_sublist li {
 	border: 0px solid transparent;
 	border-bottom: 1px dashed #eeeeee;
 }
-
 #planspage_search  #search_results ul.result_sublist li.last {
 	border-bottom: 0px solid transparent;
 }
-
 #planspage_search  #search_results ul.result_sublist li  span {
 	float: none;
 	display: block;
@@ -478,27 +435,21 @@ body#planspage_search {
     content: ">";
     margin-left: .5em;
 }
-
 #secrets {
   
 }
-
 #secrets .linkbox {
   margin-bottom: 2em;
 }
-
 #secrets .secret {
   margin-bottom: 2em;
 }
-
 #secrets .secret .secret_id {
   margin-right: 1em;
 }
-
 #secrets .secret .date_posted {
   
 }
-
 #secrets .secret .sub {
   
 }
