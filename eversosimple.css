@@ -252,6 +252,7 @@ a.markasread:hover:after {
 	overflow: hidden;
 	
 	font-family: helvetica, arial, sans-serif;
+	font-size: 1.1em; 
 	line-height: 1.5em;
 }
 
@@ -400,13 +401,14 @@ body.preferences h2 {
 #footer #poweredby {
 	float: left;
 	font-size: .9em;
+	line-height: 1.2em;
 	width: 45%;
 	margin-right: 2%;
 }
 
 #footer #poweredby img {
 	float: left;
-	margin-right: 10px;
+	margin: 0 10px 5px 0;
 }
 
 #footer #legal {
