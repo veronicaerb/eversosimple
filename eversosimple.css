@@ -294,7 +294,6 @@ a.markasread:hover:after {
 }
 
 .preferences #main, .utilities #main, #planspage_edit #main, #planspage_home #main {
-	margin-top: 105px;
 }
 
 body.utilities #main h3 {
@@ -454,8 +453,7 @@ body#planspage_search {
 #main {
   width: 100%;
 }
-#main,
-.utilities #main {
+#planspage_search #main {
   margin-top: 0;
 }
 #nav #links,
