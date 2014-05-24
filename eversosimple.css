@@ -238,12 +238,6 @@ a.markasread:hover:after {
 /* ---------- Wrapper ---------- */
 
 #wrapper {
-	position: relative;
-	width: 90%;
-	margin: 0 auto;
-	padding: 20px;
-	overflow: hidden;
-	
 	font-family: helvetica, arial, sans-serif;
 	font-size: 1.1em; 
 	line-height: 1.5em;
@@ -256,10 +250,6 @@ a.markasread:hover:after {
 /* ---------- Nav ---------- */
 
 #nav {
-	float: left;
-	display: block;
-  width: 20%;
-	margin-right: 3%;
 }
 #nav h2 {
 	display: none;
@@ -270,9 +260,6 @@ a.markasread:hover:after {
 #nav #logo {
 }
 #nav #logo  a{
-	width: 100%;
-	height: 75px;
-	display: block;
 	background-color: grey;
 	background-image: none; /* url(images/plans_logo_official_200px.png); */
 	background-image-scale: 100%;
@@ -304,12 +291,6 @@ a.markasread:hover:after {
 /* ---------- Main ---------- */
 
 #main {
-	float: left;
-	display: block;
-	width: 77%;
-	max-width: 480px;
-	margin-bottom: 50px;
-	margin-top: 70px;
 }
 
 .preferences #main, .utilities #main, #planspage_edit #main, #planspage_home #main {
@@ -363,9 +344,6 @@ body.preferences h2 {
 /* ---------- Footer ---------- */
 
 #footer {
-	float: left;
-	display: block;
-	clear: left;
 	border-top: 1px solid #dddddd;
 }
 #footer #justupdated {
@@ -373,15 +351,10 @@ body.preferences h2 {
   margin-bottom: 10px;
 }
 #footer #poweredby {
-	float: left;
 	font-size: .9em;
 	line-height: 1.2em;
-	width: 45%;
-	margin-right: 2%;
 }
 #footer #poweredby img {
-	float: left;
-	margin: 0 10px 5px 0;
 }
 #footer #legal {
 	font-size: 0.8em;
@@ -454,7 +427,49 @@ body#planspage_search {
   
 }
 
-/* --------- Media Queries --------- */
+
+/* --------- Positioning --------- */
+
+#wrapper {
+  position: relative;
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	overflow: hidden;
+}
+#nav {
+	float: left;
+	display: block;
+  width: 20%;
+	margin-right: 3%;
+}
+#nav #logo  a {
+	width: 100%;
+	height: 75px;
+	display: block;
+}
+#main {
+	float: left;
+	display: block;
+	width: 77%;
+	max-width: 480px;
+	margin-bottom: 50px;
+	margin-top: 70px;
+}
+#footer {
+	float: left;
+	display: block;
+	clear: left;
+}
+#footer #poweredby {
+	float: left;
+	width: 45%;
+	margin-right: 2%;
+}
+#footer #poweredby img {
+	float: left;
+	margin: 0 10px 5px 0;
+}
 
 @media screen and (max-width: 400px) {
   #nav,
