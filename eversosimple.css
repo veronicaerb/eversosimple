@@ -173,10 +173,16 @@ body#planspage_secrets {}						/* found at anonymous.php */
 }
 
 .infomessage .title {
-	display: inline-block;
+	display: block;
 	margin: 0.5em 1em;
 	font-weight: bold;
 }
+
+.infomessage .body {
+	display: block;
+	margin: 0.5em 1em;
+}
+
 
 pre, tt {
 	font-weight: 1em;
