@@ -466,6 +466,31 @@ body#planspage_search {
 }
 
 
+/* --------- Secrets --------- */
+
+#secrets {
+  
+}
+
+#secrets .linkbox {
+  margin-bottom: 2em;
+}
+
+#secrets .secret {
+  margin-bottom: 2em;
+}
+
+#secrets .secret .secret_id {
+  margin-right: 1em;
+}
+
+#secrets .secret .date_posted {
+  
+}
+
+#secrets .secret .sub {
+  
+}
 
 /* --------- Media Queries --------- */
 
