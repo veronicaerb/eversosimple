@@ -569,7 +569,7 @@ body#planspage_search {
 #notes_new_thread,
 #post_reply_toggle {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 #notes_new_thread:after,
@@ -628,6 +628,13 @@ body#planspage_search {
 .notes h3 {
   margin-bottom: 1em;
   line-height: 1.3;
+}
+.notes #notes_replyform {
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+.notes .prompt_label {
+  display: block;
 }
 .notes_post {
   border: 1px solid #dddddd;
