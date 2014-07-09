@@ -453,6 +453,9 @@ body#planspage_search {
 #main {
   width: 100%;
 }
+#main {
+  clear: left;
+}
 #planspage_search #main {
   margin-top: 0;
 }
@@ -466,6 +469,9 @@ body#planspage_search {
 	height: 75px;
 	display: block;
 }
+.notes_header {
+/*  clear: none;
+*/}
 .notes .updated .long {
   display: none;
 }
@@ -502,12 +508,16 @@ body#planspage_search {
   }
   #main {
   	float: left;
+  	clear: none;
   	display: block;
   	width: 77%;
   	max-width: 480px;
   	margin-bottom: 50px;
   	margin-top: 70px;
   }
+  .notes_header {
+/*    clear: both;
+*/  }
   #planspage_search #mysearch {
     max-width: 45%;
     width: 300;
@@ -550,6 +560,35 @@ body#planspage_search {
 
 .notes #main {
   max-width: 800px;
+}
+
+#notes_new_thread {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#notes_new_thread:after {
+    content: ">";
+    margin-left: .5em;
+}
+
+.board_nav,
+.notes_nav {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.boards_nav > span,
+.notes_nav > span {
+  width: 5%;
+  float: left;
+}
+.notes_nav span.newest,
+.notes_nav span.oldest {
+  width: 25%;
+}
+.notes_nav span.oldest {
+  text-align: right;
 }
 
 .notes th {
