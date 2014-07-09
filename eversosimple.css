@@ -625,6 +625,10 @@ body#planspage_search {
 
 /* Notes Detail */
 
+.notes h3 {
+  margin-bottom: 1em;
+  line-height: 1.3;
+}
 .notes_post {
   border: 1px solid #dddddd;
 	margin-bottom: 1.5em;
