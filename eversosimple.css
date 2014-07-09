@@ -466,6 +466,12 @@ body#planspage_search {
 	height: 75px;
 	display: block;
 }
+.notes .updated .long {
+  display: none;
+}
+.notes .updated .short {
+  display: inline;
+}
 #footer {
 	float: left;
 	display: block;
@@ -517,6 +523,12 @@ body#planspage_search {
   	float: left;
   	margin-bottom: 5px;
   }
+  .notes .updated .long {
+    display: inline;
+  }
+  .notes .updated .short {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -532,3 +544,37 @@ body#planspage_search {
     height: 45px;
   }
 }
+
+
+/* --------- Notes --------- */
+
+.notes #main {
+  max-width: 800px;
+}
+
+.notes th {
+  font-size: .7em;
+  color: #777;
+  line-height: 1;
+  padding-bottom: 5px;
+}
+.notes td {
+  line-height: 1.1;
+  padding-bottom: 10px;
+}
+
+.notes td,
+.notes th {
+  padding-right: 10px;
+}
+.notes td:last-child {
+  padding-right: 0;
+}
+
+.notes .updated,
+.notes .num_posts,
+.notes .author,
+.notes .recent_poster {
+  font-size: .7em;
+}
+
