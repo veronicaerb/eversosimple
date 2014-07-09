@@ -387,7 +387,7 @@ body#planspage_search {
 	margin-bottom: 1.5em;
 }
 #planspage_search .result_user_group {
-	margin: 1em 1em 3em;
+	margin: 1em 1em 2em;
 }
 #planspage_search  .result_user_group a.planlove {
 }
@@ -472,10 +472,12 @@ body#planspage_search {
 .notes_header {
 /*  clear: none;
 */}
-.notes .updated .long {
+.notes .updated .long,
+.notes .post_date .long {
   display: none;
 }
-.notes .updated .short {
+.notes .updated .short,
+.post_date .post_date .short {
   display: inline;
 }
 #footer {
@@ -533,10 +535,12 @@ body#planspage_search {
   	float: left;
   	margin-bottom: 5px;
   }
-  .notes .updated .long {
+  .notes .updated .long,
+  .notes .post_date .long {
     display: inline;
   }
-  .notes .updated .short {
+  .notes .updated .short,
+  .notes .post_date .short {
     display: none;
   }
 }
@@ -562,12 +566,14 @@ body#planspage_search {
   max-width: 800px;
 }
 
-#notes_new_thread {
+#notes_new_thread,
+#post_reply_toggle {
   display: block;
   margin-bottom: 20px;
 }
 
-#notes_new_thread:after {
+#notes_new_thread:after,
+#post_reply_toggle:after {
     content: ">";
     margin-left: .5em;
 }
@@ -617,3 +623,27 @@ body#planspage_search {
   font-size: .7em;
 }
 
+/* Notes Detail */
+
+.notes_post {
+  border: 1px solid #dddddd;
+	margin-bottom: 1.5em;
+	padding: 1em 1em 2em;
+}
+
+.notes_post_header {
+  color: #999;
+  margin-bottom: 15px;
+  font-size: .9em;
+}
+.post_id,
+.post_author,
+.post_date,
+.post_votes {
+  display: inline;
+  margin-right: 10px;
+}
+
+.post_author:before {
+  content: "Posted by ";
+}
