@@ -254,18 +254,44 @@ a.markasread:hover:after {
 #nav h2 {
 	display: none;
 }
-#nav #logo, #nav #finger, #nav #links, #nav #autoread {
+#nav #finger, #nav #links, #nav #autoread {
 	margin-bottom: 30px;
 }
 #nav #logo {
 }
 #nav #logo  a{
-	background-color: grey;
-	background-image: none; /* url(images/plans_logo_official_200px.png); */
-	background-image-scale: 100%;
+	height: 3.5em;
+  display: block;
+  margin-bottom: 10px;
+	background-image: url('images/plans_logo_official.png');
+	background-size: 40%;
+	background-position: left center;
 	background-repeat: no-repeat;
 	text-indent: -9999px;
-}	
+}
+
+@media screen and (min-width: 400px) {
+  #nav #logo  a{
+    background-position: center top;
+    background-size: 100%;  	
+    height: 4em;
+  }
+  #nav #links,
+  #nav #autoread {
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #nav #logo  a{
+
+  }
+  #nav #links,
+  #nav #autoread {
+    margin-left: 20%;
+  }
+}
+
 
 #nav #finger .form_prompt.textinput,
 #nav #finger .submitinput {
@@ -464,11 +490,6 @@ body#planspage_search {
   float: left;
   width: 50%;
 }
-#nav #logo  a {
-	width: 100%;
-	height: 75px;
-	display: block;
-}
 .notes_header {
 /*  clear: none;
 */}
@@ -549,13 +570,6 @@ body#planspage_search {
   #footer #poweredby img {
   	float: left;
   	margin-bottom: 3em;
-  }
-}
-
-@media screen and (min-width: 820px) {  /* Need to switch to mobile-first code to make these ideas work */
-  #nav #logo a {
-    background-image: none; /* url("images/logo-small.png"); */
-    height: 45px;
   }
 }
 
