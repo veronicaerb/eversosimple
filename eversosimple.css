@@ -264,7 +264,7 @@ a.markasread:hover:after {
   display: block;
   margin-bottom: 10px;
 	background-image: url('images/plans_logo_official.png');
-	background-size: 40%;
+	background-size: 38%;
 	background-position: left center;
 	background-repeat: no-repeat;
 	text-indent: -9999px;
@@ -517,6 +517,7 @@ body#planspage_search {
   	float: left;
   	display: block;
     width: 20%;
+    max-width: 150px;
   	margin-right: 3%;
   }
   #nav #finger {
